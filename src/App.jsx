@@ -1,7 +1,8 @@
 function App() {
   return (
     <div>
-      <h1>Olá, este é o meu projeto!</h1>
+      <h1>Germiani IA Studio</h1>
+      <p>O app está carregando corretamente!</p>
     </div>
   )
 }
