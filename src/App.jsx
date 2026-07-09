@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Olá, meu app está funcionando!</h1>
+      <h1>Olá, este é o meu projeto!</h1>
     </div>
   )
 }
