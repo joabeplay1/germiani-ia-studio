@@ -1,10 +1,10 @@
-function App() {
-  return (
-    <div>
-      <h1>Germiani IA Studio</h1>
-      <p>O app está carregando corretamente!</p>
-    </div>
-  )
-}
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx' // Certifique-se de que o nome é exatamente este
+import './index.css'
 
-export default App
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
