@@ -1,10 +1,12 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx' // Certifique-se de que o nome é exatamente este
-import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
+function App() {
+  return (
+    <div className="App">
+      <h1>Seu Aplicativo está no ar!</h1>
+      {/* Aqui você coloca o restante do conteúdo do seu app */}
+    </div>
+  )
+}
+
+export default App
