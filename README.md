@@ -1,0 +1,1 @@
+# germiani-ia-studio
